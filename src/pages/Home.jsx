@@ -79,17 +79,6 @@ const Home = () => {
             Proyectos Online que puedes probar
           </h2>
           <article className="pt-5">
-            <h3 style={{ color: "#61afef" }}>Calculadora JavaScript Vanilla</h3>
-            <p>Una Calculadora web</p>
-            <a
-              href="https://elliancalculadora.netlify.app/"
-              target="_blank"
-              className="btn btn-success"
-            >
-              Probarlo
-            </a>
-          </article>
-          <article className="pt-5">
             <h3 style={{ color: "#61afef" }}>
               Sistema de Gestión de Estacionamientos
             </h3>
