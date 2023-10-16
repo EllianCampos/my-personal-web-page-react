@@ -1,0 +1,92 @@
+/* Agrega estos estilos en tu archivo CSS
+.react-pdf__Document {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+  }
+  
+  .pdf-document {
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+  }
+  
+  .pdf-controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pdf-controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pdf-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  .react-pdf__Page__canvas {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .react-pdf__Document {
+    margin: 20px;
+  }
+  
+
+  .react-pdf__Page__pageNumber {
+    color: #007bff;
+  }
+  
+  .react-pdf__Page__pageNumber::before {
+    content: "Página ";
+  }
+  
+
+  .react-pdf__ZoomOutButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .react-pdf__ZoomOutButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .react-pdf__ZoomInButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .react-pdf__ZoomInButton:hover {
+    background-color: #0056b3;
+  }
+   */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.react-pdf__Page__textContent {
+  display: none;
+}
+
+.pdf-container {
+  width: 100vw; 
+  height: 100vh; 
+}
