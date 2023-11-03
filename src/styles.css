@@ -89,4 +89,9 @@
 .pdf-container {
   width: 100vw; 
   height: 100vh; 
+  
+}
+
+.react-pdf__Page__annotations{
+  display: none;
 }

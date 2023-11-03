@@ -18,7 +18,7 @@ const BlogEnglish = () => {
       <main>
         <h2>Summaries</h2>
         <section className="container">
-          <Post name="Present continous" />
+          <Post name="Past Progressive " />
         </section>
       </main>
     </>
