@@ -116,7 +116,7 @@ const Home = () => {
           ))}
         </section>
 
-        <section className="container text-light pt-5 pb-5">
+        {/* <section className="container text-light pt-5 pb-5">
             <h2 className="text-center">Mi blog</h2>
             <p>En la seccion de blog encontraras resumenes academicos de diferentes tematicas</p>
             <Row>
@@ -127,7 +127,7 @@ const Home = () => {
                 <Link to="/blog-dev" className="btn btn-success">Ir al blog de desarrollo</Link>
               </Col>
             </Row>
-        </section>
+        </section> */}
       </main>
     </>
   );
